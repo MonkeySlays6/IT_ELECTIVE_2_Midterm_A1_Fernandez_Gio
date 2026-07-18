@@ -12,78 +12,109 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
+    <div class="wrapper">
 
-            <a class="navbar-brand fw-bold"
-               asp-controller="Home"
-               asp-action="Index">
+        <!-- Desktop Sidebar -->
+        <aside class="sidebar d-none d-md-flex flex-column">
+
+            <h3 class="text-center text-white py-4">
                 My Portfolio
-            </a>
+            </h3>
 
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav">
+            <a asp-controller="Home" asp-action="Index">Home</a>
 
-                <span class="navbar-toggler-icon"></span>
+            <a asp-controller="Home" asp-action="About">About Me</a>
 
-            </button>
+            <a asp-controller="Home" asp-action="Skills">Skills</a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <a asp-controller="Home" asp-action="Projects">Projects</a>
 
-                <ul class="navbar-nav ms-auto">
+            <a asp-controller="Home" asp-action="Contact">Contact</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                           asp-controller="Home"
-                           asp-action="Index">
-                            Home
-                        </a>
-                    </li>
+        </aside>
 
-                    <li class="nav-item">
-                        <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                           asp-controller="Home"
-                           asp-action="About">
-                            About me
-                        </a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                           asp-controller="Home"
-                           asp-action="Skills">
-                            Skills
-                        </a>
-                    </li>
+        <div class="content">
 
-                    <li class="nav-item">
-                        <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                           asp-controller="Home"
-                           asp-action="Projects">
-                            Projects
-                        </a>
-                    </li>
+            <!-- Mobile Navbar -->
+            <nav class="navbar navbar-dark bg-dark d-md-none">
 
-                    <li class="nav-item">
-                        <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                           asp-controller="Home"
-                           asp-action="Contact">
-                            Contact
-                        </a>
-                    </li>
+                <div class="container-fluid">
 
-                </ul>
+                    <span class="navbar-brand">
+                        My Portfolio
+                    </span>
 
-            </div>
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mobileMenu">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="mobileMenu">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Index">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="About">
+                                About Me
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Skills">
+                                Skills
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Projects">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Contact">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+            <main class="container py-4">
+
+                @RenderBody()
+
+            </main>
 
         </div>
-    </nav>
 
-    <main class="container py-5">
-        @RenderBody()
-    </main>
+    </div>
 
     <footer class="border-top text-center text-muted py-3 mt-5">
         © 2026 - My Portfolio
