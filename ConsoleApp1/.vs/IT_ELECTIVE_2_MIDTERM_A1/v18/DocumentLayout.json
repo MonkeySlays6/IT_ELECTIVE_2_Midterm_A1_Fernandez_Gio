@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\gionf\\onedrive\\documents\\github\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\gionf\\onedrive\\documents\\github\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\gionf\\onedrive\\documents\\github\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|c:\\users\\student\\downloads\\it_elective_2_midterm_a1_fernandez_gio\\consoleapp1\\webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,10 +82,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
@@ -74,39 +90,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-18T00:10:13.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Projects.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Projects.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Projects.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHYAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-18T00:09:56.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Skills.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Skills.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Skills.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-18T00:09:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-18T00:07:09.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T23:57:39.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-07-17T11:53:36.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAgwBUBAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-17T11:53:16.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gionf\\OneDrive\\Documents\\GitHub\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Downloads\\IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio\\ConsoleApp1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-17T11:52:52.298Z",
               "EditorCaption": ""

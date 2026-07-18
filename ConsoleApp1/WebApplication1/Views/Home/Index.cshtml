@@ -1,278 +1,47 @@
 ﻿@{
-    ViewData["Title"] = "My Portfolio";
+    ViewData["Title"] = "Home";
 }
 
-<!-- HOME -->
-<section id="home" class="container py-5">
-    <div class="row align-items-center">
+<div class="row align-items-center">
 
-        <div class="col-lg-4 text-center mb-4">
-            <img src="~/Images/Gio.jpg"
-                 class="img-fluid rounded-circle shadow"
-                 alt="Profile Picture">
-        </div>
+    <div class="col-lg-4 text-center mb-4">
+        <img src="~/images/Gio.jpg"
+             class="img-fluid rounded-circle shadow"
+             alt="Profile Picture"
+             style="max-width:300px;">
+    </div>
 
-        <div class="col-lg-8">
-            <h1 class="display-4">Gio N. Fernandez</h1>
-            <h3 class="text-primary">IT Professional</h3>
+    <div class="col-lg-8">
 
-            <p class="lead intro-text">
-                Hi, I'm Gio Fernandez, a BSIT student at Lyceum of Alabang with a passion for technology and continuous learning.
-                As an aspiring IT professional, I love sharpening my strategic thinking through chess and video games while working toward a bright, balanced future in the tech industry.
-            </p>
+        <h1 class="display-4">
+            Gio N. Fernandez
+        </h1>
 
-            <a href="#projects" class="btn btn-primary me-2">
+        <h3 class="text-primary mb-4">
+            IT Undergraduate
+        </h3>
+
+        <p class="intro-text">
+            Hi, I'm Gio Fernandez, a BSIT student at Lyceum of Alabang with a passion for technology and continuous learning.
+            As an aspiring IT professional, I love sharpening my strategic thinking through chess and video games while working toward a bright, balanced future in the tech industry.
+        </p>
+
+        <div class="mt-4">
+
+            <a asp-controller="Home"
+               asp-action="Projects"
+               class="btn btn-primary me-2">
                 View Projects
             </a>
 
-            <a href="#contact" class="btn btn-outline-primary">
+            <a asp-controller="Home"
+               asp-action="Contact"
+               class="btn btn-outline-primary">
                 Contact Me
             </a>
 
         </div>
 
     </div>
-</section>
 
-<hr>
-
-<!-- ABOUT -->
-<section id="about" class="container py-5">
-
-    <h2 class="text-center mb-4">About Me</h2>
-
-    <p class="about-text">
-        Hello! My name is Gio Fernandez, and I am currently a student at Lyceum of Alabang.
-        I am pursuing a Bachelor of Science in Information Technology (BSIT), a choice driven by my fascination with technology and how it shapes our daily lives.
-        Throughout my educational journey, I have been dedicated to building a solid foundation in tech concepts, and this course is providing me with the practical skills and knowledge needed to thrive in the digital age.
-    </p>
-
-    <p class="about-text">
-        Looking ahead, my ultimate career goal is to become a highly skilled IT professional, capable of tackling complex technological challenges.
-        I am naturally curious, and one of my biggest interests is simply learning new things—whether that means picking up a new programming language or exploring how different systems work.
-        When I am not studying, I love to unwind by playing chess and video games, both of which keep my strategic thinking sharp.
-        Ultimately, my future plan is to secure a great job in the tech industry where I can grow professionally, while also making sure I take the time to truly enjoy life.
-    </p>
-
-</section>
-
-<hr>
-
-<!-- SKILLS -->
-<section id="skills" class="container py-5">
-
-    <h2 class="text-center mb-5">Skills</h2>
-
-    <div class="row g-4">
-
-        <div class="col-lg-3 col-md-6">
-            <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Programming Languages</h5>
-                    <p>C#</p>
-                    <p>Java</p>
-                    <p>Python</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Web Technologies</h5>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Bootstrap</p>
-                    <p>ASP.NET Core MVC</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Databases</h5>
-                    <p>Microsoft Access</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="card h-100 shadow">
-                <div class="card-body">
-                    <h5 class="card-title">Development Tools</h5>
-                    <p>Visual Studio</p>
-                    <p>PyCharm</p>
-                    <p>NetBeans</p>
-                    <p>Git</p>
-                    <p>GitHub</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<hr>
-
-<!-- PROJECTS -->
-<section id="projects" class="container py-5">
-
-    <h2 class="text-center mb-5">Projects</h2>
-
-    <div class="row g-4">
-
-        <div class="col-lg-4 col-md-6">
-
-            <div class="card h-100 shadow">
-
-                <img src="~/Images/github.png"
-                     class="card-img-top"
-                     alt="Project">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">
-                        IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio
-                    </h5>
-
-                    <p class="card-text">
-                        A project about creating a portfolio website
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        ASP.NET Core MVC
-                    </p>
-
-                    <a href="https://github.com/MonkeySlays6/IT_ELECTIVE_2_Midterm_A1_Fernandez_Gio.git" class="btn btn-primary">
-                        View Details
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-
-            <div class="card h-100 shadow">
-
-                <img src="~/Images/github.png"
-                     class="card-img-top"
-                     alt="Project">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">
-                        BSIT_31E1_PRELIM_Q1_Fernandez_Gio
-                    </h5>
-
-                    <p class="card-text">
-                        A quiz for debugging and fixing the code.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        C#
-                    </p>
-
-                    <a href="https://github.com/MonkeySlays6/BSIT_31E1_PRELIM_Q1_Fernandez_Gio" class="btn btn-primary">
-                        View Details
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-
-            <div class="card h-100 shadow">
-
-                <img src="~/Images/github.png"
-                     class="card-img-top"
-                     alt="Project">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">
-                        BSIT31E1_PRELIM_H2_FERNANDEZ_GIO
-                    </h5>
-
-                    <p class="card-text">
-                        A program about the file ingestion engine that reads in different formats.
-                    </p>
-
-                    <p>
-                        <strong>Technologies:</strong>
-                        C#
-                    </p>
-
-                    <a href="https://github.com/MonkeySlays6/BSIT31E1_PRELIM_H2_FERNANDEZ_GIO" class="btn btn-primary">
-                        View Details
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<hr>
-
-<!-- CONTACT -->
-<section id="contact" class="container py-5">
-
-    <h2 class="text-center mb-4">
-        Contact
-    </h2>
-
-    <div class="row justify-content-center">
-
-        <div class="col-lg-6">
-
-            <ul class="list-group">
-
-                <li class="list-group-item">
-                    <strong>Email:</strong> gionfernandez060606@gmail.com
-                </li>
-
-                <li class="list-group-item">
-                    <strong>Mobile:</strong> 09XX-XXX-XXXX
-                </li>
-
-                <li class="list-group-item">
-                    <strong>GitHub:</strong> github.com/MonkeySlays6
-                </li>
-
-                <li class="list-group-item">
-                    <strong>LinkedIn:</strong> linkedin.com
-                </li>
-
-                <li class="list-group-item">
-                    <strong>Facebook:</strong> facebook.com/MonkeySlays.4081
-                </li>
-
-            </ul>
-
-            <div class="text-center mt-4">
-
-                <button class="btn btn-success btn-lg">
-                    Download Resume
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+</div>
