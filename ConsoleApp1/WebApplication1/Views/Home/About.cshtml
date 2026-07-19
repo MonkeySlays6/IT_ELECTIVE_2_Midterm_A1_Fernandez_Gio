@@ -16,16 +16,10 @@
             <h3>Biography</h3>
 
             <p class="about-text">
-                Hello! My name is Gio Fernandez, and I am currently a student at Lyceum of Alabang.
-                I am pursuing a Bachelor of Science in Information Technology (BSIT), a choice driven by my fascination with technology and how it shapes our daily lives.
-                Throughout my educational journey, I have been dedicated to building a solid foundation in tech concepts, and this course is providing me with the practical skills and knowledge needed to thrive in the digital age.
+                @ViewData["Biography1"]
             </p>
-
             <p class="about-text">
-                Looking ahead, my ultimate career goal is to become a highly skilled IT professional, capable of tackling complex technological challenges.
-                I am naturally curious, and one of my biggest interests is simply learning new things—whether that means picking up a new programming language or exploring how different systems work.
-                When I am not studying, I love to unwind by playing chess and video games, both of which keep my strategic thinking sharp.
-                Ultimately, my future plan is to secure a great job in the tech industry where I can grow professionally, while also making sure I take the time to truly enjoy life.
+                @ViewData["Biography2"]
             </p>
 
         </div>
@@ -45,9 +39,15 @@
                     </h4>
 
                     <ul>
-                        <li>Lyceum Of Alabang</li>
-                        <li>BSIT</li>
-                        <li>3rd Year</li>
+                        <li>
+                            @ViewData["Course"]
+                        </li>
+                        <li>
+                            @ViewData["School"]
+                        </li>
+                        <li>
+                            @ViewData["S.Y."]
+                        </li>
                     </ul>
 
                 </div>
@@ -67,10 +67,21 @@
                     </h4>
 
                     <ul>
-                        <li>Be an IT Professional</li>
-                        <li>Enjoy life</li>
-                        <li>Cooking</li>
-                        <li>Playing Videogames</li>
+                        <li>
+                            @ViewData["CareerGoal1"]
+                        </li>
+                        <li>
+                            @ViewData["CareerGoal2"]
+                        </li>
+                        <li>
+                            @ViewData["Interest1"]
+                        </li>
+                        <li>
+                            @ViewData["Interest2"]
+                        </li>
+                        <li>
+                            @ViewData["Interest3"]
+                        </li>
                     </ul>
 
                 </div>
